@@ -20,7 +20,7 @@ function App() {
         Foundational
         </Typography>
         <Grid2 container spacing={3} justifyContent="center">
-          <F
+
           <Grid2 xs={6} md={4}>
             <BasicCard 
             sponsor_link={sponsor_info.foundational[0].link}            

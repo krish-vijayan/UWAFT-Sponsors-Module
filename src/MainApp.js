@@ -54,7 +54,7 @@ class FoundationalSponsors extends Component {
     let foundationalCards = this.state.foundational.map((i,sponsor) => {
       return (
         <BasicCard
-          sponsor_link={sponsor_info.foundational[].link}
+          sponsor_link={sponsor_info.foundational[0].link}
           sponsor_logo={sponsor_info.foundational[0].logo}
           sponsor_company={sponsor_info.foundational[0].company}
         />
