@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-function LogoItem(props) {
+function CarouselItem(props) {
   return (
     <>
       <a href={props.link} target="blank">
@@ -11,4 +11,4 @@ function LogoItem(props) {
   );
 }
 
-export default LogoItem;
+export default CarouselItem;

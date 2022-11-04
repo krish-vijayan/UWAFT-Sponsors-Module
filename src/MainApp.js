@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import FoundationalCarousel from "./components/Carousel";
-import BasicCard from "./components/Card";
+import CardItem from "./components/CardItem";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { sponsor_info } from "./sponsors.js";
@@ -53,7 +53,7 @@ class FoundationalSponsors extends Component {
   render() {
     let foundationalCards = this.state.foundational.map((i,sponsor) => {
       return (
-        <BasicCard
+        <CardItem
           sponsor_link={sponsor_info.foundational[0].link}
           sponsor_logo={sponsor_info.foundational[0].logo}
           sponsor_company={sponsor_info.foundational[0].company}

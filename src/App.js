@@ -1,124 +1,81 @@
-import "./App.css";
-import FoundationalCarousel from "./components/Carousel";
-import BasicCard from "./components/Card";
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CardItem from './components/CardItem';
 import Grid2 from '@mui/material/Unstable_Grid2';
-import "bootstrap/dist/css/bootstrap.min.css";
-import { sponsor_info } from "./sponsors.js"
+import { sponsor_info } from './sponsors.js';
 import Typography from '@mui/material/Typography';
-import FoundationalSponsors from "./MainApp";
 
 function App() {
-  
+	const foundational = [];
+	const benefactor = [];
+	const evergreen = [];
 
-  return (
-    <>
-      <div className="background">
-      <Typography variant="h1" align="center">
-        Sponsorships
-      </Typography>
-      <Typography variant='h2' align='center'>
-        Foundational
-        </Typography>
-        <Grid2 container spacing={3} justifyContent="center">
+	for (let i = 0; i < sponsor_info.foundational.length - 1; i++) {
+		foundational.push(
+			<Grid2 xs={6} md={4}>
+				<CardItem
+					key={i}
+					sponsor_link={sponsor_info.foundational[i].link}
+					sponsor_logo={sponsor_info.foundational[i].logo}
+					sponsor_company={sponsor_info.foundational[i].company}
+				/>{' '}
+			</Grid2>
+		);
+	}
+	for (let i = 0; i < sponsor_info.benefactor.length - 1; i++) {
+		benefactor.push(
+			<Grid2 xs={6} md={4}>
+				<CardItem
+					key={i}
+					sponsor_link={sponsor_info.benefactor[i].link}
+					sponsor_logo={sponsor_info.benefactor[i].logo}
+					sponsor_company={sponsor_info.benefactor[i].company}
+				/>
+			</Grid2>
+		);
+	}
+	for (let i = 0; i < sponsor_info.evergreen.length - 1; i++) {
+		evergreen.push(
+			<Grid2 xs={6} md={4}>
+				<CardItem
+					key={i}
+					sponsor_link={sponsor_info.evergreen[i].link}
+					sponsor_logo={sponsor_info.evergreen[i].logo}
+					sponsor_company={sponsor_info.evergreen[i].company}
+				/>{' '}
+			</Grid2>
+		);
+	}
+	console.log(benefactor);
 
-          <Grid2 xs={6} md={4}>
-            <BasicCard 
-            sponsor_link={sponsor_info.foundational[0].link}            
-            sponsor_logo={sponsor_info.foundational[0].logo}
-            sponsor_company={sponsor_info.foundational[0].company}
-            />
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard 
-            sponsor_link={sponsor_info.foundational[1].link}            
-            sponsor_logo={sponsor_info.foundational[1].logo}
-            sponsor_company={sponsor_info.foundational[1].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard
-           sponsor_link={sponsor_info.foundational[2].link}            
-           sponsor_logo={sponsor_info.foundational[2].logo}
-           sponsor_company={sponsor_info.foundational[2].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-            <BasicCard
-             sponsor_link={sponsor_info.foundational[3].link}            
-             sponsor_logo={sponsor_info.foundational[3].logo}
-             sponsor_company={sponsor_info.foundational[3].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard
-           sponsor_link={sponsor_info.foundational[4].link}            
-           sponsor_logo={sponsor_info.foundational[4].logo}
-           sponsor_company={sponsor_info.foundational[4].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard
-           sponsor_link={sponsor_info.foundational[5].link}            
-           sponsor_logo={sponsor_info.foundational[5].logo}
-           sponsor_company={sponsor_info.foundational[5].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard
-            sponsor_link={sponsor_info.foundational[6].link}            
-            sponsor_logo={sponsor_info.foundational[6].logo}
-            sponsor_company={sponsor_info.foundational[6].company}/>
-          </Grid2>
-        </Grid2>
+	return (
+		<>
+			<div className='background'>
+				<Typography variant='h1' align='center'>
+					Sponsorships
+				</Typography>
+				<Typography variant='h2' align='center'>
+					Foundational
+				</Typography>
+				<Grid2 container spacing={3} justifyContent='center'>
+					{foundational}
+				</Grid2>
 
-
-        <Typography variant='h2' align='center'>
-            Benefactor
-          </Typography>
-        <Grid2 container spacing={3} justifyContent="center">
-       
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-            sponsor_link={sponsor_info.benefactor[0].link}            
-             sponsor_logo={sponsor_info.benefactor[0].logo}
-             sponsor_company={sponsor_info.benefactor[0].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-          sponsor_link={sponsor_info.benefactor[1].link}            
-          sponsor_logo={sponsor_info.benefactor[1].logo}
-          sponsor_company={sponsor_info.benefactor[1].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-          sponsor_link={sponsor_info.benefactor[2].link}            
-          sponsor_logo={sponsor_info.benefactor[2].logo}
-          sponsor_company={sponsor_info.benefactor[2].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-          sponsor_link={sponsor_info.benefactor[3].link}            
-          sponsor_logo={sponsor_info.benefactor[3].logo}
-          sponsor_company={sponsor_info.benefactor[3].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-          sponsor_link={sponsor_info.benefactor[4].link}            
-          sponsor_logo={sponsor_info.benefactor[4].logo}
-          sponsor_company={sponsor_info.benefactor[4].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-          sponsor_link={sponsor_info.benefactor[5].link}            
-          sponsor_logo={sponsor_info.benefactor[5].logo}
-          sponsor_company={sponsor_info.benefactor[5].company}/>
-          </Grid2>
-          <Grid2 xs={6} md={4}>
-          <BasicCard  
-          sponsor_link={sponsor_info.benefactor[6].link}            
-          sponsor_logo={sponsor_info.benefactor[6].logo}
-          sponsor_company={sponsor_info.benefactor[6].company}/>
-          </Grid2>
-        </Grid2>
-
-      </div>
-    </>
-  );
+				<Typography variant='h2' align='center'>
+					Benefactor
+				</Typography>
+				<Grid2 container spacing={3} justifyContent='center'>
+					{benefactor}
+				</Grid2>
+				<Typography variant='h2' align='center'>
+					Evergreen
+				</Typography>
+				<Grid2 container spacing={3} justifyContent='center'>
+					{evergreen}
+				</Grid2>
+			</div>
+		</>
+	);
 }
 
 export default App;
