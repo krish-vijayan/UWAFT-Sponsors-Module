@@ -1,0 +1,43 @@
+// Just for future reference
+
+// const foundational = [];
+// const benefactor = [];
+// const evergreen = [];
+
+// for (let i = 0; i < sponsor_info.foundational.length - 1; i++) {
+//   foundational.push(
+//     <Grid2 xs={6} md={4}>
+//       <CardItem
+//         key={i}
+//         sponsor_link={sponsor_info.foundational[i].link}
+//         sponsor_logo={sponsor_info.foundational[i].logo}
+//         sponsor_company={sponsor_info.foundational[i].company}
+//       />{" "}
+//     </Grid2>
+//   );
+// }
+// for (let i = 0; i < sponsor_info.benefactor.length - 1; i++) {
+//   benefactor.push(
+//     <Grid2 xs={6} md={4}>
+//       <CardItem
+//         key={i}
+//         sponsor_link={sponsor_info.benefactor[i].link}
+//         sponsor_logo={sponsor_info.benefactor[i].logo}
+//         sponsor_company={sponsor_info.benefactor[i].company}
+//       />
+//     </Grid2>
+//   );
+// }
+// for (let i = 0; i < sponsor_info.evergreen.length - 1; i++) {
+//   evergreen.push(
+//     <Grid2 xs={6} md={4}>
+//       <CardItem
+//         key={i}
+//         sponsor_link={sponsor_info.evergreen[i].link}
+//         sponsor_logo={sponsor_info.evergreen[i].logo}
+//         sponsor_company={sponsor_info.evergreen[i].company}
+//       />{" "}
+//     </Grid2>
+//   );
+// }
+// console.log(benefactor);
