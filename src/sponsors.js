@@ -1,4 +1,57 @@
 export const sponsor_info = {
+  headline: [
+    {
+      company: "Energy.Gov",
+      link: "https://www.energy.gov/",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Seal_of_the_United_States_Department_of_Energy.svg/1200px-Seal_of_the_United_States_Department_of_Energy.svg.png",
+    },
+    {
+      company: "General Motors",
+      link: "https://www.gm.com/",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Logo_of_General_Motors.svg/1200px-Logo_of_General_Motors.svg.png",
+    },
+    {
+      company: "Mathworks",
+      link: "https://www.mathworks.com/",
+      logo: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1426005180/j7ytodfbs2synikmskfy.png",
+    },
+  ],
+  visionary: [
+    {
+      company: "General Motors",
+      link: "https://www.gm.com/",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Logo_of_General_Motors.svg/1200px-Logo_of_General_Motors.svg.png",
+    },
+  ],
+  leadership: [
+    {
+      company: "Paccar",
+      link: "https://www.paccar.com/",
+      logo: "https://stnonline.com/wp-content/uploads/2018/12/PACCAR-Logo.png",
+    },
+    {
+      company: "Magna",
+      link: "https://www.magna.com/",
+      logo: "https://download.logo.wine/logo/Magna_International/Magna_International-Logo.wine.png",
+    },
+    {
+      company: "Bosch",
+      link: "https://www.bosch.ca/",
+      logo: "https://assets.bosch.com/media/global/bosch_group/our_figures/brands/bosch-brand-bosch_res_1280x720.png",
+    },
+    {
+      company: "dSpace",
+      link: "https://www.dspace.com/en/inc/home.cfm ",
+      logo: "https://www.dspace.com/img/logo.svg",
+    },
+    {
+      company: "Nxp",
+      link: "https://www.nxp.com/",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NXP_Semiconductors_Logo.svg/1200px-NXP_Semiconductors_Logo.svg.png",
+    },
+  ],
+  sustaining: [{}],
+
   foundational: [
     {
       company: "American Axle & Manufacturing",
