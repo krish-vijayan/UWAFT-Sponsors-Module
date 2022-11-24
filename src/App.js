@@ -1,6 +1,5 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CardItem from "./components/CardItem";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import { sponsor_info } from "./sponsors.js";
 import Typography from "@mui/material/Typography";
