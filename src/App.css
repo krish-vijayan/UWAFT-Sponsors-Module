@@ -4,13 +4,11 @@
   width: auto;
   max-width: 140px;
   padding-left: 10px; */
-  width:200px;
-  height:200px;
- 
- /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-  object-fit:scale-down;
- 
+  width: 200px;
+  height: 200px;
 
+  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+  object-fit: scale-down;
 }
 
 .Align-Logos:hover {
@@ -18,5 +16,5 @@
   object-fit: cover;
   filter: brightness(calc(0.6 * (1 + var(--hl))));
   transition: 0.7s;
-  object-fit:scale-down;
+  object-fit: scale-down;
 }

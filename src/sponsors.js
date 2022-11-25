@@ -1,19 +1,19 @@
 export const sponsor_info = {
-  foundational: [
+  headline: [
     {
       company: "Energy.Gov",
       link: "https://www.energy.gov/",
-      logo: "./img/US_department_of_energy.png",
+      logo: "./img/department.png",
     },
     {
       company: "General Motors",
       link: "https://www.gm.com/",
-      logo: "./img/general_motors-removebg-preview.png",
+      logo: "./img/gm.png",
     },
     {
       company: "Mathworks",
       link: "https://www.mathworks.com/",
-      logo: "./img/MathWorks.jpeg",
+      logo: "./img/mathworks.jpeg",
     },
   ],
   visionary: [
@@ -27,85 +27,85 @@ export const sponsor_info = {
     {
       company: "Paccar",
       link: "https://www.paccar.com/",
-      logo: "https://stnonline.com/wp-content/uploads/2018/12/PACCAR-Logo.png",
+      logo: "./img/paccar.png",
     },
     {
       company: "Magna",
       link: "https://www.magna.com/",
-      logo: "https://download.logo.wine/logo/Magna_International/Magna_International-Logo.wine.png",
+      logo: "./img/magna.png",
     },
     {
       company: "Bosch",
       link: "https://www.bosch.ca/",
-      logo: "https://assets.bosch.com/media/global/bosch_group/our_figures/brands/bosch-brand-bosch_res_1280x720.png",
+      logo: "./img/bosch.png",
     },
     {
       company: "dSpace",
       link: "https://www.dspace.com/en/inc/home.cfm ",
-      logo: "https://www.dspace.com/img/logo.svg",
+      logo: "./img/dspace.png",
     },
     {
       company: "Nxp",
       link: "https://www.nxp.com/",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/NXP_Semiconductors_Logo.svg/1200px-NXP_Semiconductors_Logo.svg.png",
+      logo: "./img/nxp.png",
     },
   ],
   sustaining: [
     {
       company: "One",
       link: "https://one.ai/",
-      logo: "https://mma.prnewswire.com/media/1661002/ONE_Color_for_Print_Logo.jpg?p=facebook",
+      logo: "./img/one.jpg",
     },
     {
       company: "Denso",
       link: "https://www.denso.com/us-ca/en/",
-      logo: "https://www.aftermarketnews.com/wp-content/uploads/2015/04/Denso-Logo.png",
+      logo: "./img/denso.png",
     },
   ],
   supporter: [
     {
       company: "Dataspeed",
       link: "https://www.dataspeedinc.com/",
-      logo: "https://www.dataspeedinc.com/app/uploads/2018/12/dataspeedinc_icon.png",
+      logo: "./img/dataspeed.png",
     },
   ],
   contributor: [
     {
       company: "Infineon",
       link: "https://www.infineon.com/",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Infineon-Logo.svg/1200px-Infineon-Logo.svg.png",
+      logo: "./img/infineon.png",
     },
     {
       company: "Amphenol",
       link: "https://amphenol.com/",
-      logo: "https://cdn.amphenol-cs.com/media/logo/stores/1/logo_acs_web.png",
+      logo: "./img/amphenol.png",
     },
     {
       company: "Proterra",
       link: "https://www.proterra.com/",
-      logo: "https://www.proterra.com/wp-content/uploads/2019/06/Proterra-Logo.png",
+      logo: "./img/proterra.png",
     },
     {
       company: "Vector",
       link: "https://www.vector.com/us/en/",
-      logo: "https://seekvectorlogo.com/wp-content/uploads/2019/04/vector-group-vector-logo.png",
+      logo: "./img/vector.png",
     },
     {
       company: "Cohda Wireless",
       link: "https://www.cohdawireless.com/",
-      logo: "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/2ca8662f-fd1d-42c3-a3a7-7285fae193cc.png",
+      logo: "./img/cohda.png",
     },
     {
       company: "Consumer Reports",
       link: "https://www.consumerreports.org/",
-      logo: "https://www.consumersinternational.org/media/1652/consumer-reports-us.png?width=1120&quality=80&format=jpg&slimmage=true",
+      logo: "./img/consumer.jpg",
     },
   ],
   automotive: [
     {
       company: "Tesa",
       link: "https://www.tesa.com/en",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TESA-Logo.svg/1280px-TESA-Logo.svg.png",
+      logo: "./img/tesa.png",
     },
   ],
 
